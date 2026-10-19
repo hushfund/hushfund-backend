@@ -14,7 +14,7 @@
     "db:init": "node scripts/init-db.mjs"
   },
   "dependencies": {
-    "@openfort/openfort-node": "^0.7.3",
+    "@openfort/openfort-node": "^0.13.1",
     "dotenv": "^16.3.1",
     "express": "^5.1.0",
     "pg": "8.23.0",

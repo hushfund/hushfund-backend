@@ -1,0 +1,29 @@
+{
+  "network": "mainnet",
+  "chainId": 1,
+  "deployBlock": 26220370,
+  "poseidon2": "0x9543a1C76a5F573776DC921B44777864e6905c86",
+  "withdrawVerifier": "0xe7BB37046b0dbdBE9612De3250e6686f00d18FFd",
+  "borrowVerifier": "0xcbB258E7C657E2616ce49F929201f3a9C0Df899c",
+  "aavePool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+  "aaveAToken": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+  "morphoVault": "0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+  "vaults": [
+    {
+      "denominationUsdc": 10,
+      "address": "0xa02a23efa43DcecAaaA7CD152a4507b53faF46CC"
+    },
+    {
+      "denominationUsdc": 50,
+      "address": "0x083c6E28630eD8d2F2a7a72f91aE2155F410c911"
+    },
+    {
+      "denominationUsdc": 100,
+      "address": "0x933e5Eea3083dc59cF0082D5cde5c782FE5f72e1"
+    },
+    {
+      "denominationUsdc": 1000,
+      "address": "0x03586c547159683E8b2Bd70958734F3B0Bacfb58"
+    }
+  ]
+}

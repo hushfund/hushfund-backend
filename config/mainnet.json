@@ -1,0 +1,22 @@
+{
+  "network": "mainnet",
+  "chainId": 1,
+  "explorer": "https://etherscan.io",
+  "owner": "0x5281c8bbCB52f2Ff62fF3e1b0068010f57AEb76C",
+  "feeRecipient": "0x16341382683a7A49Dea7d3Eae6Ed6E45B5CDd145",
+  "withdrawalFeeBps": 5,
+  "denominationsUsdc": [
+    10,
+    50,
+    100,
+    1000
+  ],
+  "merkleTreeDepth": 20,
+  "usdc": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "useMockStrategies": false,
+  "aavePool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+  "aaveAToken": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+  "morphoVault": "0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+  "chainlinkEthUsd": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+  "lifiEnabled": true
+}

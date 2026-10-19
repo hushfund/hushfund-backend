@@ -1,0 +1,15 @@
+{
+  "name": "hushfund-backend",
+  "description": "Hushfund API and gas-sponsoring relayer with persistent transaction state and Openfort integration.",
+  "homepage": "https://hushfund.app",
+  "visibility": "public",
+  "topics": [
+    "hushfund",
+    "ethereum",
+    "usdc",
+    "mainnet",
+    "open-source"
+  ],
+  "has_wiki": false,
+  "has_projects": false
+}

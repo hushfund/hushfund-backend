@@ -1,0 +1,55 @@
+{
+  "name": "hushfund-backend",
+  "version": "1.0.0",
+  "description": "Hushfund API and gas-sponsoring relayer with persistent transaction state and Openfort integration.",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "build:loose": "tsc || echo 'TypeScript reported errors above; continuing with the emitted JavaScript'",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts",
+    "db:init": "node scripts/init-db.mjs"
+  },
+  "dependencies": {
+    "@openfort/openfort-node": "^0.7.3",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "pg": "8.23.0",
+    "viem": "^2.45.1"
+  },
+  "overrides": {
+    "axios": "1.20.0",
+    "ws": "8.22.0",
+    "proxy-addr": "2.0.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.4",
+    "@types/node": "^22.0.0",
+    "@types/pg": "8.23.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "hushfund",
+    "relayer",
+    "ethereum"
+  ],
+  "author": "Hushfund",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "homepage": "https://hushfund.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hushfund/hushfund-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hushfund/hushfund-backend/issues",
+    "email": "hello@husfund.app"
+  },
+  "private": true
+}
